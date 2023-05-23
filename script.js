@@ -1,3 +1,4 @@
+console.log("Hello")
 document.getElementById("menuToggle").addEventListener("click", function () {
   document.getElementById("myDropdown").classList.toggle("show");
 });
