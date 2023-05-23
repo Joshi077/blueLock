@@ -21,10 +21,19 @@
   <body>
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="p-10 navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Blue Lock Sports Complex</a>
 
-      <!-- Navigation links here -->
+      <div class="ml-auto">
+        <button class="navbar-toggler dropbtn" type="button" id="menuToggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a class="nav-link" href=".about">About</a>
+          <a class="nav-link" href=".facilities">Facilities</a>
+          <a class="nav-link" href=".contact">Contact Us</a>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero section -->
@@ -157,6 +166,8 @@
     </footer>
 
     <!-- JavaScript -->
+
+    <script src="script.js" />
 
     <script src=https://code.jquery.com/jquery-3.5.1.slim.min.js /> <script
     src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
