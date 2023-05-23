@@ -1,77 +1,127 @@
-Hero section */
-
+/* Hero section */
 .hero {
-
-  background-color: #005ea3;
-
+  background-color: #19a7ce;
   color: #fff;
 
   text-align: center;
+  font-size: 1.2rem;
 
   padding: 80px 0;
-
 }
 
- 
+.hero h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+/* Navbar */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid transperent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  border-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0; /* Align the dropdown to the right side */
+  top: 100%; /* Position the dropdown below the parent element */
+  white-space: nowrap; /* Prevent line wrapping */
+  overflow: hidden; /* Hide overflowing content */
+  max-height: calc(
+    100vh - 100px
+  ); /* Set a max height to fit within the viewport */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
 
 /* About section */
 
 .about {
-
   background-color: #f8f9fa;
 
   padding: 60px 0;
-
 }
-
- 
 
 /* Facilities section */
 
 .facilities {
-
-  background-color: #fff;
-
-  padding: 80px 0;
-
+  background-color: #aee2ff;
+  padding: 40px 0;
 }
 
- 
+.facilities h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
 
 .facilities .facility {
-
-  margin-bottom: 40px;
-
+  margin: 20px;
 }
-
- 
 
 .facilities img {
-
   width: 100%;
-
   margin-bottom: 20px;
-
 }
-
- 
 
 /* Contact section */
 
 .contact {
-
-  background-color: #f8f9fa;
-
+  background-color: #146c94;
+  color: white;
   padding: 80px 0;
-
+}
+.contact h2 {
+  font-weight: semi-bold;
+  font-size: 3rem;
 }
 
- 
-
+.contact button {
+  background-color: white;
+  color: #146c94;
+  border: none;
+  border-radius: 1.5rem;
+}
 /* Footer */
 
 .footer {
-
   background-color: #343a40;
 
   color: #fff;
@@ -79,5 +129,4 @@ Hero section */
   text-align: center;
 
   padding: 20px 0;
-
 }
